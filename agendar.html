@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="span">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Psicoclinica</title>
+    <link rel="icon" type="image/x-icon" href="imgs/logo.ico">
+    <link rel="stylesheet" href="styles/Style-Agendar.css">  
+</head>
+
+<body>
+    <img src="imgs/logopag.png" alt="logo" style="width: 300px; position:sticky; left:1000px;">
+    <div>
+        <ul class="webmenu">
+            <li class="webbutton"><a class="active_on" href="agendar.html">Agenda una cita</a></li>
+            <li class="webbutton"><a href="localiz.html">Localización</a></li>
+            <li class="webbutton"><a href="psico.html">Psicologa</a></li>
+            <li class="webbutton"><a href="Especialidad.html" class="active">Especialidad</a></li>
+            <li class="webbutton"><a href="index.html" style="margin-right: 640px; padding: 14px ;">Inicio</a></li>
+          </ul>
+    </div>
+
+    <div class="fade-in-text">
+        <p>Agenda una cita hoy</p>
+    </div>
+
+
+
+    <table class="tabla" >
+        <th>
+      <td>
+        <div class="fade-in-Element1" id="element1" onclick="openPopup('popup1')">
+            <span title="Precio de consulta">&#36;</span>
+    </td>
+
+    <td>
+        <div class="fade-in-Element2" id="element2" onclick="openPopup('popup2')">
+            <span title="Telefono oficial">&#9742;</span>
+    </td>
+        </th>
+    </table>
+ 
+    <div id="popup1" class="popup">
+        <div class="popup-content">
+          <span class="close" onclick="closePopup('popup1')">&times;</span>
+          <p class="mini-titl">Precio por consulta</p>
+          <p style="text-align: center;"></p>
+        </div>
+      </div>
+
+      <div id="popup2" class="popup">
+        <div class="popup-content">
+          <span class="close" onclick="closePopup('popup2')">&times;</span>
+          <p class="mini-titl">Telefono oficial de Psicoclinica</p>
+          <p style="text-align: center;">Llamar al telefono 673-100-7663</p>
+        </div>
+      </div>
+
+      <script src="popup.js"></script>
+</body>
+</html>

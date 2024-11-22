@@ -1,0 +1,96 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(212, 70, 99);
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    padding: 14px 19px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+  
+  li a:hover {
+    background-color: rgb(240, 141, 144);
+    transition-duration: 0.9s;
+    color:black;
+  }
+
+  li a.active_on {
+    background-color: rgb(255, 255, 255);
+    color:rgb(240, 141, 144);
+    font-weight: bold;
+  }
+
+  .Psic-div {
+    width: 800px;
+    height: 400px;
+    margin: 50px auto; /* Esto centrará el div horizontalmente */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .parte {
+    flex: 1; /* Cada parte ocupará el mismo espacio */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .izquierda {
+    height: 400px;
+    background-color: lightcoral;
+  }
+
+  .derecha {
+    height: 400px;
+  }
+
+  details {
+    padding: 0.5em 0.5em 0;
+    width: 300px;
+    display: inline;
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+  }
+  
+  summary {
+    font-weight: bold;
+    margin: -0.5em -0.5em 0;
+    padding: 0.5em;
+    max-width: 250px;
+    cursor: pointer;
+    font-size: 30px;
+    -webkit-text-stroke: 1px #ffffff;
+    text-align: center;
+    color:black;
+    font-family: Arial;
+  }
+  
+  details[open] {
+    padding: 0.5em;
+    max-width: 450px;
+  }
+  
+  details[open] summary {
+    margin-bottom: 0.5em;
+    max-width: 450px;
+    cursor:pointer;
+  }
+
+.describe{
+  font-size: 15px;
+}

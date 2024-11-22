@@ -1,0 +1,110 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(212, 70, 99);
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    padding: 14px 19px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+  
+  li a:hover {
+    background-color: rgb(240, 141, 144);
+    transition-duration: 0.9s;
+    color:black;
+  }
+
+  li a.active_on {
+    background-color: rgb(255, 255, 255);
+    color:rgb(240, 141, 144);
+    font-weight: bold;
+  }
+
+
+#IntroBox {
+  background-color: #c54e68;
+  display: inline-block;
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+    border-style: outset;
+    border-radius: 10%;
+    border-color: #9e7950;
+    margin: 0;
+    position:relative;
+    left: 800px;
+    bottom: 0px;
+    top:100px;
+    vertical-align: middle;
+}
+
+h1 {
+  font-size: 40px; 
+  margin-top: 0.40;
+  text-align: center; 
+  color:white; 
+  font-family: sans-serif;
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: 100;
+  line-height: -1;
+  text-align: center; 
+  color:white; 
+  font-family: sans-serif;
+}
+
+.slideshow-container {
+  max-width: 450px;
+  position: relative;
+  margin: auto;
+  bottom: 240px;
+  right: 180px;
+  /* Prevents overflow of images */
+}
+
+/* Hide images by default */
+.mySlides {
+  display: none;
+  position: absolute;
+  width: 100%;
+}
+
+/* Image fade animation */
+.fade {
+  animation: fadeIn 1.5s ease-in forwards;
+}
+
+.fade-out {
+  animation: fadeOut 1.5s ease-in forwards;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeOut {
+  from {opacity: 1;}
+  to {opacity: 0;}
+}
+
+/* Add a background color with some padding to the slideshow */
+.slideshow-container {
+  background: #c54e68;
+  padding: 15px;
+}

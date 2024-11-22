@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="span">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Psicoclinica</title>
+    <link rel="icon" type="image/x-icon" href="imgs/logo.ico">
+    <link rel="stylesheet" href="styles/Style-Esp.css">  
+</head>
+
+<body>
+    <img src="imgs/logopag.png" alt="logo" style="width: 300px; position:sticky; left:1000px;">
+    <div>
+        <ul class="webmenu">
+            <li class="webbutton"><a href="agendar.html">Agenda una cita</a></li>
+            <li class="webbutton"><a href="localiz.html">Localización</a></li>
+            <li class="webbutton"><a href="psico.html">Psicologa</a></li>
+            <li class="webbutton"><a class="active_on" href="Especialidad.html" class="active">Especialidad</a></li>
+            <li class="webbutton"><a href="index.html" style="margin-right: 640px; padding: 14px ;">Inicio</a></li>
+          </ul>
+    </div>
+
+    <table class="tabla" >
+      <th>
+    <td> <div class="Esp-boton" id="element1" onclick="openPopup('popup1')">
+        <a>Ansiedad</a>
+    </div>
+  </td>
+      <td>
+      <div class="Esp-boton" id="element2" onclick="openPopup('popup2')">
+        <a>Depresión</a>
+    </div>
+      </td>
+  </th>
+    </table>
+
+    <table class="tabla">
+  <th>
+    <td>
+      <div class="Esp-boton" id="element3" onclick="openPopup('popup3')">
+        <a>Estrés</a>
+    </div>
+  </td>
+
+  <td>
+      <div class="Esp-boton" id="element4" onclick="openPopup('popup4')">
+        <a>Cutting</a>
+    </div>
+  </td>
+  </th>
+    </table>
+
+    <table class="tabla">
+  <th>
+    <td>
+      <div class="Esp-boton" id="element5" onclick="openPopup('popup5')">
+        <a>Baja autoestima</a>
+    </div>
+    </td>
+    <td>
+      <div class="Esp-boton" id="element6" onclick="openPopup('popup6')">
+        <a>Control de las emociones</a>
+    </td>
+  </th>
+  </table>
+
+  <table class="tabla">
+    <th>
+      <td>
+        <div class="Esp-boton" id="element7" onclick="openPopup('popup7')">
+          <a>Control de impulsos</a>
+      </div>
+      </td>
+      <td>
+        <div class="Esp-boton" id="element8" onclick="openPopup('popup8')">
+          <a>Dependencias</a>
+      </td>
+    </th>
+    </table>
+
+      <div id="popup1" class="popup">
+        <div class="popup-content">
+          <span class="close" onclick="closePopup('popup1')">&times;</span>
+          <p class="mini-titl">Ansiedad</p>
+          <p>La ansiedad es una respuesta natural al estrés, pero cuando se vuelve excesiva, puede interferir con la vida diaria. Puede manifestarse en diversas formas, como trastorno de ansiedad generalizada, fobias o trastorno de pánico. La terapia cognitivo-conductual (TCC) y técnicas de relajación son enfoques comunes para su tratamiento.</p>
+        </div>
+      </div>
+
+      <div id="popup2" class="popup">
+        <div class="popup-content">
+          <span class="close" onclick="closePopup('popup2')">&times;</span>
+          <p class="mini-titl">Depresión</p>
+          <p>La depresión es un trastorno del estado de ánimo que provoca sentimientos persistentes de tristeza y pérdida de interés. Puede incluir síntomas como fatiga, cambios en el apetito, dificultad para concentrarse y pensamientos de inutilidad o suicidio. La depresión no es simplemente sentirse triste; puede ser debilitante y afectar todas las áreas de la vida. </p>
+        </div>
+      </div>
+
+      <div id="popup3" class="popup">
+        <div class="popup-content">
+          <span class="close" onclick="closePopup('popup3')">&times;</span>
+          <p class="mini-titl">Estrés</p>
+          <p>El estrés es una respuesta a presiones externas, que pueden ser tanto positivas (como un nuevo trabajo) como negativas (como problemas familiares). Se manifiesta a través de emociones, pensamientos y comportamientos que pueden causar malestar físico y mental. Aunque el estrés es una parte normal de la vida, el estrés crónico puede llevar a problemas de salud más graves.</p>
+        </div>
+      </div>
+
+      <div id="popup4" class="popup">
+        <div class="popup-content">
+          <span class="close" onclick="closePopup('popup4')">&times;</span>
+          <p class="mini-titl">Cutting</p>
+          <p> Se refiere al acto de autolesionarse, generalmente cortándose, como una forma de lidiar con emociones intensas o difíciles. Es una forma de expresar dolor interno en el cuerpo. Las personas usan las autolesiones para enfrentar tristeza, ansiedad o enojo.</p>
+        </div>
+      </div>
+
+      <div id="popup5" class="popup">
+        <div class="popup-content">
+          <span class="close" onclick="closePopup('popup5')">&times;</span>
+          <p class="mini-titl">Baja autoestima</p>
+          <p>La baja autoestima se manifiesta cuando una persona tiene una autopercepción negativa, que puede afectar su vida personal, social y laboral. A menudo se siente insuficiente o no merecedora de amor y éxito.</p>
+        </div>
+      </div>
+
+      <div id="popup6" class="popup">
+        <div class="popup-content">
+          <span class="close" onclick="closePopup('popup6')">&times;</span>
+          <p class="mini-titl">Control de las emociones</p>
+          <p>Dificultad para manejar las emociones, lo que puede llevar a reacciones desproporcionadas o a conductas que la persona luego lamenta. El control emocional implica manejar emociones intensas como la ira o la tristeza sin sentirse abrumado.</p>
+        </div>
+      </div>
+
+      <div id="popup7" class="popup">
+        <div class="popup-content">
+          <span class="close" onclick="closePopup('popup7')">&times;</span>
+          <p class="mini-titl">Control de impulsos</p>
+          <p>Consiste en la dificultad para resistir impulsos o tentaciones, lo que puede llevar a comportamientos impulsivos y dañinos. Incluye acciones como comprar compulsivamente o estallar en situaciones de frustración.</p>
+        </div>
+      </div>
+
+      <div id="popup8" class="popup">
+        <div class="popup-content">
+          <span class="close" onclick="closePopup('popup8')">&times;</span>
+          <p class="mini-titl">Dependencias</p>
+          <p>Se refiere a la dependencia emocional o física de sustancias o personas para evitar lidiar con sentimientos negativos. Las dependencias pueden incluir sustancias, tecnología, relaciones, entre otras.</p>
+        </div>
+      </div>
+
+
+    <script src="popup.js"></script>
+</body>
+</html>

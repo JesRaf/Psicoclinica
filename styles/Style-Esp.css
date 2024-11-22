@@ -1,0 +1,99 @@
+.webmenu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(212, 70, 99);
+}
+
+.webbutton {
+  float: right;
+}
+
+.webbutton a {
+  display: block;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  padding: 14px 19px;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.webbutton a:hover {
+  background-color: rgb(240, 141, 144);
+  transition-duration: 0.9s;
+  color:black;
+}
+
+.webbutton a.active_on {
+  background-color: rgb(255, 255, 255);
+  color:rgb(240, 141, 144);
+  font-weight: bold;
+}
+
+.Esp-boton {
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.Esp-boton a {
+  background-color: rgb(212, 70, 99);
+  padding: 20px 30px;
+  margin: 2px;
+  display: block;
+  cursor: pointer;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 15px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.Esp-boton a:hover {
+  background-color: white;
+  transition-duration: 1s;
+  color:rgb(212, 70, 99);
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.popup-content {
+  background-color: white;
+  margin: 15% auto;
+  padding: 20px;
+  width: 80%;
+  max-width: 300px;
+}
+
+.close {
+  color: red;
+  float: right;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.mini-titl{
+  font-size: large;
+  color: black;
+  text-align: center;
+}
+
+.tabla, th, td{
+  border:1px solid transparent;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
