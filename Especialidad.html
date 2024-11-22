@@ -14,13 +14,13 @@
         <ul class="webmenu">
             <li class="webbutton"><a href="agendar.html">Agenda una cita</a></li>
             <li class="webbutton"><a href="localiz.html">Localización</a></li>
-            <li class="webbutton"><a href="psico.html">Psicóloga</a></li>
+            <li class="webbutton"><a href="psico.html">Psicologa</a></li>
             <li class="webbutton"><a class="active_on" href="Especialidad.html" class="active">Especialidad</a></li>
             <li class="webbutton"><a href="index.html" style="margin-right: 640px; padding: 14px ;">Inicio</a></li>
           </ul>
     </div>
 
-    <table class="tabla" >
+    <table class="tabla" style="margin-top:70px;" >
       <th>
     <td> <div class="Esp-boton" id="element1" onclick="openPopup('popup1')">
         <a>Ansiedad</a>
@@ -31,38 +31,37 @@
         <a>Depresión</a>
     </div>
       </td>
+
+      <td>
+        <div class="Esp-boton" id="element3" onclick="openPopup('popup3')">
+          <a>Estrés</a>
+      </div>
+    </td>
+
   </th>
     </table>
 
     <table class="tabla">
   <th>
-    <td>
-      <div class="Esp-boton" id="element3" onclick="openPopup('popup3')">
-        <a>Estrés</a>
-    </div>
-  </td>
-
   <td>
       <div class="Esp-boton" id="element4" onclick="openPopup('popup4')">
         <a>Cutting</a>
     </div>
   </td>
+
+  <td>
+    <div class="Esp-boton" id="element5" onclick="openPopup('popup5')">
+      <a>Baja autoestima</a>
+  </div>
+  </td>
+  <td>
+    <div class="Esp-boton" id="element6" onclick="openPopup('popup6')">
+      <a>Control de las emociones</a>
+  </td>
+
   </th>
     </table>
 
-    <table class="tabla">
-  <th>
-    <td>
-      <div class="Esp-boton" id="element5" onclick="openPopup('popup5')">
-        <a>Baja autoestima</a>
-    </div>
-    </td>
-    <td>
-      <div class="Esp-boton" id="element6" onclick="openPopup('popup6')">
-        <a>Control de las emociones</a>
-    </td>
-  </th>
-  </table>
 
   <table class="tabla">
     <th>
@@ -74,6 +73,10 @@
       <td>
         <div class="Esp-boton" id="element8" onclick="openPopup('popup8')">
           <a>Dependencias</a>
+      </td>
+      <td>
+        <div class="Esp-boton" id="element9" onclick="openPopup('popup9')">
+          <a>Problemas de pareja</a>
       </td>
     </th>
     </table>
@@ -142,6 +145,13 @@
         </div>
       </div>
 
+      <div id="popup9" class="popup">
+        <div class="popup-content">
+          <span class="close" onclick="closePopup('popup9')">&times;</span>
+          <p class="mini-titl">Problemas de pareja</p>
+          <p>Los problemas de pareja suelen surgir por diferencias en la comunicación, expectativas no satisfechas, falta de confianza, celos, infidelidad, problemas financieros o falta de conexión emocional. Pueden generar conflictos frecuentes, distanciamiento y, en algunos casos, pensamientos sobre la separación.</p>
+        </div>
+      </div>
 
     <script src="popup.js"></script>
 </body>
