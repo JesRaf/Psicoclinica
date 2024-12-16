@@ -14,7 +14,7 @@
         <ul>
             <li><a href="agendar.html">Agenda una cita</a></li>
             <li><a class="active_on" href="localiz.html">Localización</a></li>
-            <li><a href="psico.html">Psicologa</a></li>
+            <li><a href="psico.html">Psicóloga</a></li>
             <li><a href="Especialidad.html" >Especialidad</a></li>
             <li><a href="index.html" style="margin-right: 640px; padding: 14px;">Inicio</a></li>
           </ul>
@@ -39,5 +39,38 @@
     </div>
   </details>
 
+  <div class="Int-boton" id="element1" onclick="openPopup('popup')">
+    <a>Interior</a>
+</div>
+
+<div class="popup-overlay" id="popup">
+    <div class="popup">
+      <span class="close" onclick="closePopup('popup')">&times;</span>
+      
+    </div>
+    <div class="slideshow-container">
+                <div class="slides">
+                    <img src="imgs/img_local1.jpg" alt="Imagen 1">
+                </div>
+                <div class="slides">
+                    <img src="imgs/img_local2.jpg" alt="Imagen 2">
+                </div>
+
+                <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+                <button class="next" onclick="changeSlide(1)">&#10095;</button>
+            </div>
+
+            <div class="dots">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+            </div>
+        </div>
+    </div>
+    
+
+    </div>
+  </div>
+<script src="slide2.js"></script>
+<script src="popup.js"></script>
 </body>
 </html>

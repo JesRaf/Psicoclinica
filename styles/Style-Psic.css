@@ -34,9 +34,9 @@ ul {
   }
 
   .Psic-div {
-    width: 800px;
+    width: 650px;
     height: 400px;
-    margin: 50px auto; /* Esto centrará el div horizontalmente */
+    margin: 60px auto; /* Esto centrará el div horizontalmente */
       display: flex;
       justify-content: center;
       align-items: center;
@@ -55,7 +55,7 @@ ul {
   }
 
   .derecha {
-    height: 400px;
+    height: 250px;
   }
 
   details {
@@ -94,3 +94,11 @@ ul {
 .describe{
   font-size: 15px;
 }
+
+.img-derecha{
+  width: 250px;
+  height: 400px;
+  margin-right: 70px;
+  
+}
+
